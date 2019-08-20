@@ -1,0 +1,22 @@
+{
+  "name": "apex-tracker",
+  "version": "1.0.0",
+  "description": "Show stats for Apex",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Alain Dimabuyo",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
